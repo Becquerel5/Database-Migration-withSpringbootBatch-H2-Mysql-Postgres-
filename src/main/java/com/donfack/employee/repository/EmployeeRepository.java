@@ -19,8 +19,7 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long>{
 
 
 
-    List<Employee> findAllRoom();
+    /*List<Employee> findAllRoom();*/
 
-    @Query("SELECT e.id as employeeId, e.name,e.password,e.salary,r.name,r.number from Employee e inner join RoomM r on  e.id  = r.employeeid  order by e.id")
-    List<Object> getEmpByRoom();
+
 }

@@ -36,8 +36,8 @@ public class testmigrateController {
     }*/
 
 
-    @GetMapping("/getemployeeroom")
+  /*  @GetMapping("/getemployeeroom")
     public List<Employee> getEmpByRoom(){
         return employeeRepository.findAllRoom();
-    }
+    }*/
 }
